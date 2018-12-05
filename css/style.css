@@ -1,0 +1,45 @@
+/* Base Styles */
+
+body {
+        background-image: linear-gradient(to left,#FF934F, #FFBA8F);
+        
+}
+
+header {
+        font-family: 'Bungee', cursive;
+}
+
+nav ul {
+        text-align: center;
+        float: right;
+        
+}
+
+li {
+        display: inline;
+        padding: 1.250em;
+}
+
+main {
+        text-align: center;
+        color: rgb(33, 149, 216);
+        
+}
+
+h1 p {
+        font-family: 'Noto Sans', sans-serif;
+
+}
+
+img {
+    width: 10%;
+    height: auto
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: xx-large;
+    color: rgb(49, 111, 226);
+    text-align: center;
+    text-decoration: none;
+}
