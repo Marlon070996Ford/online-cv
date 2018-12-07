@@ -26,7 +26,7 @@ main {
         
 }
 
-h1 p {
+p {
         font-family: 'Noto Sans', sans-serif;
 
 }
@@ -42,4 +42,13 @@ nav a {
     color: rgb(49, 111, 226);
     text-align: center;
     text-decoration: none;
+}
+
+a:hover {
+        color:rgb(220, 20, 60);
+        font-size: 35px;
+}
+
+h1 {
+        font-size: xx-large
 }
