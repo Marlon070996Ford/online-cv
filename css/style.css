@@ -46,9 +46,14 @@ nav a {
 
 a:hover {
         color:rgb(220, 20, 60);
-        font-size: 35px;
 }
 
 h1 {
-        font-size: xx-large
+        font-size: xx-large;
+        color: rgb(33, 149, 216);
+}
+
+footer {
+        text-align: center;
+        color: rgb(33, 149, 216);
 }
