@@ -1,8 +1,7 @@
 /* Base Styles */
 
 body {
-        background-image: linear-gradient(to left grey,);
-        
+        background-image: url(../images/background.jpeg);
 }
 
 header {
@@ -31,7 +30,7 @@ li {
 
 main {
         text-align: center;
-        color: rgb(33, 149, 216);
+        color: black;
         
 }
 
@@ -49,6 +48,11 @@ img.image1:hover {
         width: 100px;
         height: 100px;
         transition: height 2s ease-out, width 2s ease-out;
+}
+
+img.image {
+        width: 100px;
+        height: 100px;
 }
 
 nav a {
@@ -70,7 +74,7 @@ h1 {
 
 footer {
         text-align: center;
-        color: rgb(33, 149, 216);
+        color: black;
 }
 
 .image {
@@ -92,7 +96,6 @@ footer {
 }
 
 div.footer {
-        background-color: thistle;
         padding: 0;
         margin: 0;
         background-size: cover;
@@ -100,19 +103,6 @@ div.footer {
 
 /* responsive design */
 @media and screen only (min width: 600px) {
-        nav ul {
-                text-align: center;
-                margin: 0;
-                overflow: hidden;
-                list-style-type: none;
-                background-color: rgba(254, 254, 255, 0.685);
-                width: 100%;
-                border-radius: 2%;
-        }
-        
-        header {
-                font-family: 'Bungee', cursive;
-                font-size: small;
-        }
+       
 
 }
