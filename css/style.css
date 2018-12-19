@@ -1,108 +1,145 @@
 /* Base Styles */
 
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Fredoka One', cursive; */
+
+/* this is the start of my background and base structure */
 body {
-        background-image: url(../images/background.jpeg);
-}
-
-header {
-        font-family: 'Bungee', cursive;
-}
-div {
-        padding: 0 0 0 100px;
-}
-
-nav ul {
-        text-align: center;
-        position: fixed;
-        margin: 0;
-        overflow: hidden;
-        list-style-type: none;
-        background-color: rgba(254, 254, 255, 0.685);
-        top: 0;
-        width: 100%;
-        border-radius: 2%
-}
-
-li {
-        display: inline;
-        padding: 8px 25px;
-}
-
-main {
-        text-align: center;
-        color: black;
-        
-}
-
-p {
-        font-family: 'Noto Sans', sans-serif;
-}
-
-img {
-        width: 50px;
-        height: 50px;
-        border-radius: 8px;
-}
-    
-img.image1:hover {
-        width: 100px;
-        height: 100px;
-        transition: height 2s ease-out, width 2s ease-out;
-}
-
-img.image {
-        width: 100px;
-        height: 100px;
-}
-
-nav a {
-    text-transform: uppercase;
-    font-size: xx-large;
-    color: rgb(49, 111, 226);
-    text-align: right;
-    text-decoration: none;
-}
-
-a:hover {
-        color:rgb(220, 20, 60);
-}
-
-h1 {
-        font-size: xx-large;
-        color: rgb(33, 149, 216);
-}
-
-footer {
-        text-align: center;
-        color: black;
-}
-
-.image {
-        grid-area:image; 
-}
-
-.grid-container {
-        display: grid;
-        grid-template-areas: 'image image image' ;
-        grid-gap: 10px;
-        padding: 10px;
-}
-
-.grid-container>div {
-        background-color: rgba(221, 212, 212, 0.8);
-        text-align: center;
-        padding:20px 0;
-        font-size: 30px;
-}
-
-div.footer {
-        padding: 0;
-        margin: 0;
-        background-size: cover;
-}
-
-/* responsive design */
-@media and screen only (min width: 600px) {
+        background-color: rgb(119, 136, 153);
+        padding: 0 10px 0 10px;
+     }
        
-
-}
+     /* styling and creating my nav bar */
+     nav ul {
+         position: fixed;
+     }
+     
+     li {
+         display: inline;
+     }
+     
+     a {
+         text-decoration: none;
+         color: rgb(48, 125, 145);
+         padding: 0 10px 0 10px;
+         font-size: xx-large;
+     }
+     
+     /* start of my parallax to for emphasis on me */
+     .parallax {
+         background-image: url(../images/car.jpg);
+         height: 580px;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+         box-shadow:  0 0 8px 8px white inset;
+         border-radius: 10px;
+     }
+     
+     p.name {
+         text-align: center;
+         font-size: 50px;
+         font-family: 'Fredoka One', cursive;
+         color:rgba(8, 140, 248, 0.5);
+         padding: 0;
+     }
+     /* styling my classes and divs */
+     .names {
+         text-align: center;
+         font-size: 50px;
+         font-family: 'Fredoka One', cursive;
+         color:rgba(8, 140, 248, 0.5);
+     }
+     
+     .intro {
+         background-color: rgba(255, 255, 255, 0.986);    
+         background-size: cover;
+         border-radius: 10px;
+         text-align: center;
+     }
+     
+     .tools {
+         background-color: rgba(255, 255, 255, 0.986);    
+         background-size: cover;
+         border-radius: 10px;
+         text-align: center;
+     }
+     
+     .ex {
+         background-color: rgba(255, 255, 255, 0.986);    
+         background-size: cover;
+         border-radius: 10px;
+         text-align: center;
+     }
+     
+     .contact {
+         background-color: rgba(255, 255, 255, 0.986);    
+         background-size: cover;
+         border-radius: 10px;
+         text-align: center;
+     }
+     
+     /* styling of fonts and colors */
+     h1 {
+         font-family: 'Fredoka One', cursive;
+         font-size: 40px;
+         color: rgba(8, 140, 248, 0.5);
+     }
+     
+     h3 {
+         font-family: 'Fredoka One', cursive;
+         font-size: 25px;
+         color: rgba(8, 140, 248, 0.5);
+     }
+     
+     p {
+         font-family: 'Righteous', cursive;
+         color:rgba(8, 140, 248, 0.5);
+     }
+     
+     /* styling my flexbox and creating it */
+     .conatiner {
+         display: flex;
+         justify-content: center;
+     }
+     
+     .container > div {
+         text-align: center;
+         display: inline;
+         padding: 20px;
+         margin: 20px;
+     }
+     
+     /* sizing my images */
+     img {
+         width: 70px;
+         height: 70px;
+     }
+     /* used this to make my scrolling slow */
+     html {
+         scroll-behavior: smooth;
+     }
+     
+     /* @media queries */
+     
+     @media only screen and (max-width: 768px){
+         nav ul {
+             /* position: fixed; */
+         }
+     
+         a {
+             text-decoration: none;
+             color: #307d91;
+             padding: 0 10px 0 10px;
+             font-size: 100%;
+         }
+         
+         
+     }
+     
+     @media only screen and (max-width: 1140px){
+     
+     }
+     
+     
