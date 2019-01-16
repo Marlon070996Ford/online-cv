@@ -28,8 +28,8 @@ a {
 
 /* start of my parallax for emphasis on me */
 .parallax {
-    background-image: url(../images/car.jpg);
-    height: 580px;
+    background-image: url(../images/camper.jpg);
+    height: 680px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,24 +82,24 @@ p.name {
 
 /* styling of fonts and colors */
 h1 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Indie Flower', cursive;
     font-size: 40px;
     color: rgba(8, 140, 248, 0.5);
 }
 
 h3 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Righteous', cursive;
     font-size: 25px;
     color: rgba(8, 140, 248, 0.5);
 }
 
 p {
-    font-family: 'Righteous', cursive;
+    font-family: 'Indie Flower', cursive;
     color:rgba(8, 140, 248, 0.5);
 }
 
 /* styling my flexbox and creating it */
-.conatiner {
+.container {
     display: flex;
     justify-content: center;
 }
@@ -126,23 +126,27 @@ html {
 @media only screen and (max-width: 848px){
 
     body {
-        background-color: rgb(202, 231, 38);
+        background-color: rgb(119, 136, 153);
         padding: 0 10px 0 10px;
      }
     nav ul {
-        position: fixed
+    position: unset;
+    }
+
+    li {
+        display: inline;
     }
 
     a {
         text-decoration: none;
         color: #307d91;
         padding: 0 10px 0 10px;
-        font-size: 100%;
+        font-size: x-large;
     }
     
     /* start of my parallax to for emphasis on me */
     .parallax {
-    background-image: url(../images/car.jpg);
+    background-image: url(../images/camper.jpg);
     height: 580px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -158,7 +162,7 @@ html {
     p.name {
     text-align: center;
     font-size: 30px;
-    font-family: 'Indie Flower', cursive
+    font-family: 'Righteous', cursive;
     color:rgba(8, 140, 248, 0.5);
     padding: 0;
     }
@@ -166,7 +170,7 @@ html {
     .names {
     text-align: center;
     font-size: 50px;
-    font-family: 'Indie Flower', cursive
+    font-family: 'Righteous', cursive;
     color:rgba(8, 140, 248, 0.5);
 }
 
@@ -200,20 +204,21 @@ html {
 
 /* styling of fonts and colors */
     h1 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Righteous', cursive;
     font-size: 40px;
     color: rgba(8, 140, 248, 0.5);
     }
 
     h3 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Righteous', cursive;
     font-size: 25px;
     color: rgba(8, 140, 248, 0.5);
     }
 
     p {
-    font-family: 'Righteous', cursive;
+    font-family: 'Indie Flower', cursive;
     color:rgba(8, 140, 248, 0.5);
+    padding: 0 5px 0 5px;
     }
 
 /* styling my flexbox and creating it */
@@ -231,8 +236,8 @@ html {
 
 /* sizing my images */
     img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     }
 /* used this to make my scrolling slow */
     html {
@@ -245,42 +250,40 @@ html {
 }
 
 
-@media only screen and (max-width: 404px){
+@media only screen and (max-width: 520px){
 
     body {
-        background-color: rgb(0, 214, 230);
+        background-color: rgb(119, 136, 153);
         padding: 0 10px 0 10px;
      }
-    nav ul {
-        position: fixed
+    
+    li {
+        display: inline;
     }
 
     a {
         text-decoration: none;
         color: #307d91;
         padding: 0 10px 0 10px;
-        font-size: 100%;
+        font-size: large;
     }
     
     /* start of my parallax to for emphasis on me */
     .parallax {
-    background-image: url(../images/car.jpg);
-    height: 580px;
+    background-image: url(../images/camper5.jpg);
+    height: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     box-shadow:  0 0 8px 8px white inset;
     border-radius: 10px;
-    background-position: center;
-
-    min-width: auto;
-    min-height: auto;
+    
     }
 
     p.name {
     text-align: center;
     font-size: 30px;
-    font-family: 'Indie Flower', cursive
+    font-family: 'Indie Flower', cursive;
     color:rgba(8, 140, 248, 0.5);
     padding: 0;
     }
@@ -289,7 +292,7 @@ html {
     .names {
     text-align: center;
     font-size: 50px;
-    font-family: 'Indie Flower', cursive
+    font-family: 'Indie Flower', cursive;
     color:rgba(8, 140, 248, 0.5);
 }
 
@@ -323,13 +326,13 @@ html {
 
 /* styling of fonts and colors */
     h1 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Indie Flower', cursive;
     font-size: 40px;
     color: rgba(8, 140, 248, 0.5);
     }
 
     h3 {
-    font-family: 'Indie Flower', cursive
+    font-family: 'Indie Flower', cursive;
     font-size: 25px;
     color: rgba(8, 140, 248, 0.5);
     }
@@ -337,6 +340,7 @@ html {
     p {
     font-family: 'Righteous', cursive;
     color:rgba(8, 140, 248, 0.5);
+    padding: 5px;
     }
 
 /* styling my flexbox and creating it */
@@ -354,13 +358,14 @@ html {
 
 /* sizing my images */
     img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     }
 /* used this to make my scrolling slow */
     html {
     scroll-behavior: smooth;
     } 
 
+    
 }
 
