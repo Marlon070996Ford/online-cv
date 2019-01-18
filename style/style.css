@@ -1,80 +1,95 @@
 /* Base Styles */
 
-/* font-family: 'Righteous', cursive; */
-/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
 
 /* this is the start of my background and base structure */
 body {
-   background-color: rgb(119, 136, 153);
+   background-color: rgb(145, 145, 145);
    padding: 0 10px 0 10px;
 }
   
 /* styling and creating my nav bar */
 nav ul {
     position: fixed;
+    padding: 0.5em;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    word-spacing: 10px;
 }
 
 li {
+    list-style: none;
     display: inline;
 }
 
 a {
     text-decoration: none;
-    color: rgb(48, 125, 145);
+    color: #000000;
     padding: 0 10px 0 10px;
     font-size: xx-large;
+    margin: 10px;
 }
 
 
 /* start of my parallax for emphasis on me */
 .parallax {
-    background-image: url(../images/camper.jpg);
-    height: 680px;
+    background-image: url(../images/bb.jpg);
+    height: 480px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow:  0 0 8px 8px white inset;
     border-radius: 10px;
+    width: 100%;
 }
 
 p.name {
     text-align: center;
     font-size: 50px;
-    font-family: 'Righteous', cursive;
-    color:rgba(8, 140, 248, 0.5);
-    padding: 0;
+    padding: 60px 0 0 0;
+    color: #000000;
 }
 /* styling my classes and divs */
 .names {
     text-align: center;
-    font-size: 50px;
-    
-    color:rgba(8, 140, 248, 0.5);
+    font-size: 70px;
+    padding: 80px 0 0 0;
+    color: #000000;
 }
 
 .intro {
-    background-color: rgba(255, 255, 255, 0.986);    
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    padding: 0 80px 20px;
 }
 
 .tools {
-    background-color: rgba(255, 255, 255, 0.986);    
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    padding: 0 0 0 80px;
 }
 
 .ex {
-    background-color: rgba(255, 255, 255, 0.986);    
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    padding: 0 60px 10px 80px;
 }
 
+
 .contact {
-    background-color: rgba(255, 255, 255, 0.986);    
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -82,20 +97,17 @@ p.name {
 
 /* styling of fonts and colors */
 h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    color: rgba(8, 140, 248, 0.5);
 }
 
 h3 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    color: rgba(8, 140, 248, 0.5);
 }
 
 p {
-    font-family: 'Indie Flower', cursive;
-    color:rgba(8, 140, 248, 0.5);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* styling my flexbox and creating it */
@@ -105,16 +117,19 @@ p {
 }
 
 .container > div {
-    text-align: center;
+    text-align: left;
     display: inline;
-    padding: 20px;
-    margin: 20px;
+    padding: 50px;
+    margin: 10px;
 }
 
-/* sizing my images */
-img {
-    width: 70px;
-    height: 70px;
+/* styling my icons */
+.fab {
+    font-size: 60px;
+}
+
+.far {
+    font-size: 60px;
 }
 /* used this to make my scrolling slow */
 html {
@@ -123,249 +138,182 @@ html {
 
 /* @media queries */
 
-@media only screen and (max-width: 848px){
+@media only screen and (max-device-width: 768px) {
 
-    body {
-        background-color: rgb(119, 136, 153);
-        padding: 0 10px 0 10px;
-     }
-    nav ul {
-    position: unset;
-    }
+body {
+    background-color: darkorange;
+}
 
-    li {
-        display: inline;
-    }
-
-    a {
-        text-decoration: none;
-        color: #307d91;
-        padding: 0 10px 0 10px;
-        font-size: x-large;
-    }
-    
-    /* start of my parallax to for emphasis on me */
-    .parallax {
-    background-image: url(../images/camper.jpg);
-    height: 580px;
+     /* start of my parallax for emphasis on me */
+.parallax {
+    background-image: url(../images/bb.jpg);
+    height: 480px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow:  0 0 8px 8px white inset;
     border-radius: 10px;
+    width: 100%;
     background-position: center;
-
-    min-width: auto;
-    min-height: auto;
-    }
-
-    p.name {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Righteous', cursive;
-    color:rgba(8, 140, 248, 0.5);
-    padding: 0;
-    }
-/* styling my classes and divs */
-    .names {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Righteous', cursive;
-    color:rgba(8, 140, 248, 0.5);
 }
 
-    .intro {
-    background-color: rgba(255, 255, 255, 0.986);    
-    background-size: cover;
-    border-radius: 10px;
+p.name {
     text-align: center;
-    }
+    font-size: inherit;
+    padding: 60px 0 0 0;
+    color: #000000;
+}
+/* styling my classes and divs */
+.names {
+    text-align: center;
+    font-size: 40px;
+    padding: 80px 0 0 0;
+    color: #000000;
+}
 
-    .tools {
-    background-color: rgba(255, 255, 255, 0.986);    
+.intro {
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
-    }
+    text-align: left;
+    padding: 0 80px 20px;
+}
 
-    .ex {
-    background-color: rgba(255, 255, 255, 0.986);    
+.tools {
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
-    }
+    text-align: left;
+    padding: 0 0 0 80px;
+}
 
-    .contact {
-    background-color: rgba(255, 255, 255, 0.986);    
+.ex {
+    background-color: ivory;    
+    background-size: cover;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0 60px 10px 80px;
+}
+
+
+.contact {
+    background-color: ivory;    
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    }
+}
 
 /* styling of fonts and colors */
-    h1 {
-    font-family: 'Righteous', cursive;
+h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    color: rgba(8, 140, 248, 0.5);
-    }
+}
 
-    h3 {
-    font-family: 'Righteous', cursive;
+h3 {
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    color: rgba(8, 140, 248, 0.5);
-    }
+}
 
-    p {
-    font-family: 'Indie Flower', cursive;
-    color:rgba(8, 140, 248, 0.5);
-    padding: 0 5px 0 5px;
-    }
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
 
 /* styling my flexbox and creating it */
-    .conatiner {
+.container {
     display: flex;
     justify-content: center;
-    }
+}
 
-    .container > div {
-    text-align: center;
+.container > div {
+    text-align: left;
+    display: inline;
+    padding: 50px;
+    margin: 10px;
+}
+
+/* styling my icons */
+.fab {
+    font-size: 60px;
+}
+
+.far {
+    font-size: 60px;
+}
+
+}
+
+@media only screen and (max-device-width: 530px) {
+    p.name {
+        text-align: center;
+        font-size: inherit;
+        padding: 60px 0 0 0;
+        color: #000000;
+    }
+    /* styling my classes and divs */
+    .names {
+        text-align: center;
+        font-size: inherit;
+        padding: 80px 0 0 0;
+        color: #000000;
+    }
+    /* styling my flexbox and creating it */
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+.container > div {
+    text-align: left;
     display: inline;
     padding: 20px;
-    margin: 20px;
-    }
-
-/* sizing my images */
-    img {
-    width: 60px;
-    height: 60px;
-    }
-/* used this to make my scrolling slow */
-    html {
-    scroll-behavior: smooth;
-    }
-
-
-
-    
+    margin: 10px;
 }
 
+/* styling my icons */
+.fab {
+    font-size: 40px;
+}
 
-@media only screen and (max-width: 520px){
+.far {
+    font-size: 40px;
+}
 
-    body {
-        background-color: rgb(119, 136, 153);
-        padding: 0 10px 0 10px;
-     }
-    
-    li {
-        display: inline;
-    }
+}
 
-    a {
-        text-decoration: none;
-        color: #307d91;
-        padding: 0 10px 0 10px;
-        font-size: large;
-    }
-    
-    /* start of my parallax to for emphasis on me */
-    .parallax {
-    background-image: url(../images/camper5.jpg);
-    height: contain;
+@media only screen and (max-device-width: 380px) {
+       /* start of my parallax for emphasis on me */
+.parallax {
+    background-image: url(../images/bb.jpg);
+    height: 300px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     box-shadow:  0 0 8px 8px white inset;
     border-radius: 10px;
-    
-    }
-
-    p.name {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Indie Flower', cursive;
-    color:rgba(8, 140, 248, 0.5);
-    padding: 0;
-    }
-
-/* styling my classes and divs */
-    .names {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Indie Flower', cursive;
-    color:rgba(8, 140, 248, 0.5);
+    width: 100%;
+    background-position: center;
 }
 
-    .intro {
-    background-color: rgba(255, 255, 255, 0.986);    
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    }
-
-    .tools {
-    background-color: rgba(255, 255, 255, 0.986);    
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    }
-
-    .ex {
-    background-color: rgba(255, 255, 255, 0.986);    
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    }
-
-    .contact {
-    background-color: rgba(255, 255, 255, 0.986);    
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    }
-
-/* styling of fonts and colors */
-    h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 40px;
-    color: rgba(8, 140, 248, 0.5);
-    }
-
-    h3 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 25px;
-    color: rgba(8, 140, 248, 0.5);
-    }
-
-    p {
-    font-family: 'Righteous', cursive;
-    color:rgba(8, 140, 248, 0.5);
-    padding: 5px;
-    }
-
-/* styling my flexbox and creating it */
-    .conatiner {
+ /* styling my flexbox and creating it */
+ .container {
     display: flex;
-    justify-content: center;
-    }
+    justify-content: left;
+}
 
-    .container > div {
-    text-align: center;
+.container > div {
+    text-align: left;
     display: inline;
     padding: 10px;
-    margin: 10px;
-    }
-
-/* sizing my images */
-    img {
-    width: 40px;
-    height: 40px;
-    }
-/* used this to make my scrolling slow */
-    html {
-    scroll-behavior: smooth;
-    } 
-
-    
+    margin: 5px;
 }
 
+/* styling my icons */
+.fab {
+    font-size: 25px;
+}
+
+.far {
+    font-size: 25px;
+}
+
+}
