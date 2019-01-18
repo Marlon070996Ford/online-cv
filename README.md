@@ -9,7 +9,7 @@
 - Create your base folder structure (images)
 
 ## Live Link
-- 
+- https://marlon070996ford.github.io/online-cv/index.html
 
 ## Prevalent Technologies Used
 
