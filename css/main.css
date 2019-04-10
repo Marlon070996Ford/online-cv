@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Englebert|Fugaz+One|Luckiest+Guy|Permanent+Marker");
 body {
-  background-color: dimgray; }
+  background-color: dimgray;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 a {
   padding: 1%; }
@@ -13,6 +16,9 @@ header {
 
 h1 {
   text-align: center; }
+
+section {
+  background-color: azure; }
 
 .collapse li a {
   text-decoration: none;

@@ -1,5 +1,8 @@
 body {
     background-color: dimgray;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -15,5 +18,9 @@ header {
 
 h1 {
     text-align: center;
+}
+
+section {
+    background-color: azure;
 }
 
